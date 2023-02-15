@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: output-set
-        uses: actions/github-script@main
+        uses: actions/github-script@v6main
         with:
           script: return core.getInput('input-value')
           result-encoding: string
